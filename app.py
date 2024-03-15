@@ -41,7 +41,7 @@ def gen_frames():
 	out = cv2.VideoWriter('output.avi', fourcc, 20.0, frame_size)
 
 	# cap = cv2.VideoCapture("production_id_4143205 (720p).mp4")
-	cap = cv2.VideoCapture("pexels-christopher-schultz-5927708 (1080p).mp4")
+	cap = cv2.VideoCapture("helmet_detection_deployment/pexels-christopher-schultz-5927708 (1080p).mp4")
 	while(cap.isOpened()):
 		ret, frame = cap.read()
 		if ret == True:

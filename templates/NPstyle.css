@@ -1,0 +1,15 @@
+body {
+    background-image: url_for("bag6.jpg");
+    background-size: cover; 
+    /* background-position: center;  */
+}
+
+.NpH1{
+    color: white;
+    text-align: center;
+    margin: 5vh;
+}
+
+.img{
+    margin: 10px;
+}

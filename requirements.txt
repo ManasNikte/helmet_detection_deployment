@@ -36,6 +36,7 @@ gast==0.5.4
 gitdb==4.0.11
 GitPython==3.1.42
 google-pasta==0.2.0
+Gunicorn
 greenlet==3.0.3
 grpcio==1.62.1
 h5py==3.10.0

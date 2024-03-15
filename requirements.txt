@@ -13,7 +13,6 @@ Cython==3.0.9
 debugpy 
 decorator 
 distro 
-dlib==19.24.2
 dm-tree==0.1.8
 einops==0.7.0
 exceptiongroup 

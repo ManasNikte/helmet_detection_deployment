@@ -97,14 +97,14 @@ def gen_frames():
 									except:
 										print('could not save number plate')
 										
-			if save_video: # save video
-				out.write(frame)
-			if save_img: #save img
-				cv2.imwrite('saved_frame.jpg', frame)
-					
-			ret, buffer = cv2.imencode('.jpg', frame)
-			frame_bytes = buffer.tobytes()
-			yield (b'--frame\r\n'b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n') 
+				if save_video: # save video
+					out.write(frame)
+				if save_img: #save img
+					cv2.imwrite('saved_frame.jpg', frame)
+						
+				ret, buffer = cv2.imencode('.jpg', frame)
+				frame_bytes = buffer.tobytes()
+				yield (b'--frame\r\n'b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n') 
 				
 		
 @app.route('/')

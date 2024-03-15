@@ -1,4 +1,4 @@
-efrom flask import Flask, render_template, Response, request
+from flask import Flask, render_template, Response, request
 from functools import wraps
 from my_functions import *
 import cv2 

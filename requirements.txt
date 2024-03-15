@@ -9,3 +9,4 @@ matplotlib
 Gunicorn
 Flask==3.0.2
 requests
+pyyaml

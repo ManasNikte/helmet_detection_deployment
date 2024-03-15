@@ -7,8 +7,8 @@ app = Flask(__name__)
 # camera = cv2.VideoCapture(0)
 
 # Define username and password
-USERNAME = 'admin'
-PASSWORD = 'password'
+USERNAME = 'admin123'
+PASSWORD = 'password123'
 
 # Function to check if username and password are correct
 def check_auth(username, password):
